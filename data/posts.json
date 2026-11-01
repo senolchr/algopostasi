@@ -2,7 +2,7 @@
   "site": {
     "name": "Algoritma Postası",
     "tagline": "Yeni çıkan yapay zekâ araçları: denendi, anlatıldı.",
-    "domain": "",
+    "domain": "algoritmapostasi.com",
     "newsletter_action": "",
     "social": {
       "youtube": "https://www.youtube.com/@algopostasi",
@@ -17,7 +17,15 @@
       "title": "Haftanın Postası · Sayı 01",
       "range": "2–8 Kasım 2026",
       "intro": "Yapay zekâ ajanları ucuzluyor, modeller internetten kesiliyor, bir yapay zekâ şirketi borsaya hazırlanıyor. İlk sayımızda haftanın yedi gönderisi.",
-      "posts": ["chatgpt-hafiza", "gpt-61-terra", "kimi-k31-pro", "1password-agents", "opera-webai", "openai-cevrimdisi-egitim", "anthropic-halka-arz"]
+      "posts": [
+        "chatgpt-hafiza",
+        "gpt-61-terra",
+        "kimi-k31-pro",
+        "1password-agents",
+        "opera-webai",
+        "openai-cevrimdisi-egitim",
+        "anthropic-halka-arz"
+      ]
     }
   ],
   "posts": [
@@ -36,7 +44,10 @@
         "Ne yapabilirsin? ChatGPT ayarlarında Hafıza bölümüne girip kayıtlarına bakabilir, istemediklerini tek tek silebilir ya da hafızayı tamamen kapatabilirsin. Menü adları uygulama sürümüne göre farklı görünebilir."
       ],
       "sources": [
-        {"title": "AI Weekly: ChatGPT self-generates 96% of user memories", "url": "https://aiweekly.co/alerts/chatgpt-self-generates-96-of-user-memories-study-finds"}
+        {
+          "title": "AI Weekly: ChatGPT self-generates 96% of user memories",
+          "url": "https://aiweekly.co/alerts/chatgpt-self-generates-96-of-user-memories-study-finds"
+        }
       ]
     },
     {
@@ -54,7 +65,10 @@
         "Kimler kullanabilir? Model, ChatGPT'nin Plus, Pro, Enterprise ve Edu planlarında ChatGPT Work ve Codex içinde sunuluyor. Ücretsiz kullanıcılar için bir açıklama yapılmadı."
       ],
       "sources": [
-        {"title": "BleepingComputer: OpenAI launches GPT-6.1 Terra", "url": "https://bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing"}
+        {
+          "title": "BleepingComputer: OpenAI launches GPT-6.1 Terra",
+          "url": "https://bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing"
+        }
       ]
     },
     {
@@ -72,8 +86,14 @@
         "Geliştiriciler için API fiyatı milyon giriş token'ı başına yaklaşık 2 dolar olarak bildiriliyor."
       ],
       "sources": [
-        {"title": "Let's Data Science: Moonshot releases Kimi K3.1 Pro API", "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"},
-        {"title": "Trew Knowledge: AI This Week", "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"}
+        {
+          "title": "Let's Data Science: Moonshot releases Kimi K3.1 Pro API",
+          "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
+        },
+        {
+          "title": "Trew Knowledge: AI This Week",
+          "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
+        }
       ]
     },
     {
@@ -90,7 +110,10 @@
         "Özellik 1Password.com'daki Bireysel ve Aile hesaplarında ek ücret olmadan sunuluyor. Şimdilik az sayıda asistanla çalışıyor; şirket ChatGPT Work ve Claude Duet gibi asistanların yakında ekleneceğini söylüyor. 1Password.eu ve 1Password.ca hesaplarıyla Teams ve Business hesapları henüz desteklenmiyor."
       ],
       "sources": [
-        {"title": "1Password: Introducing 1Password for Agents", "url": "https://www.1password.community/announcements-52/introducing-1password-for-agents-25883"}
+        {
+          "title": "1Password: Introducing 1Password for Agents",
+          "url": "https://www.1password.community/announcements-52/introducing-1password-for-agents-25883"
+        }
       ]
     },
     {
@@ -108,7 +131,10 @@
         "Neden önemli? Bulut tabanlı asistanlara göre daha küçük modeller kullanıldığı için kalite farkı beklenebilir; ama gizlilik ve internetsiz çalışma, özellikle hassas belgelerle çalışanlar için büyük bir avantaj."
       ],
       "sources": [
-        {"title": "Android Headlines: Opera WebAI", "url": "https://www.androidheadlines.com/2026/10/opera-webai-local-browser-ai-launch.html"}
+        {
+          "title": "Android Headlines: Opera WebAI",
+          "url": "https://www.androidheadlines.com/2026/10/opera-webai-local-browser-ai-launch.html"
+        }
       ]
     },
     {
@@ -126,8 +152,14 @@
         "Bu gelişme, yapay zekâ şirketlerinin modellerini deneme aşamasında bile dış dünyaya karşı daha sıkı kapılar arkasında tutmaya başladığını gösteriyor."
       ],
       "sources": [
-        {"title": "Trew Knowledge: AI This Week", "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"},
-        {"title": "DonanımHaber: AI Günlükleri (26 Ekim 2026)", "url": "https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-26-ekim-2026--212105"}
+        {
+          "title": "Trew Knowledge: AI This Week",
+          "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
+        },
+        {
+          "title": "DonanımHaber: AI Günlükleri (26 Ekim 2026)",
+          "url": "https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-26-ekim-2026--212105"
+        }
       ]
     },
     {
@@ -145,8 +177,14 @@
         "Bu yazı yatırım tavsiyesi değildir."
       ],
       "sources": [
-        {"title": "Shacknews: Anthropic files S-1", "url": "https://www.shacknews.com/article/151141/anthropic-claude-stock-ipo"},
-        {"title": "Trew Knowledge: AI This Week", "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"}
+        {
+          "title": "Shacknews: Anthropic files S-1",
+          "url": "https://www.shacknews.com/article/151141/anthropic-claude-stock-ipo"
+        },
+        {
+          "title": "Trew Knowledge: AI This Week",
+          "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
+        }
       ]
     }
   ]
