@@ -5,9 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    # Türkiye saati 13:00 ve 19:00 (UTC+3) — birkaç dakika sonra çalışır
-    - cron: '2 10 * * *'
-    - cron: '2 16 * * *'
+    # GitHub zamanlayıcısı gecikebildiği için 15 dakikada bir kontrol edilir;
+    # saati gelen posta en geç birkaç dakika içinde siteye eklenir.
+    - cron: '*/15 * * * *'
 
 permissions:
   contents: read
