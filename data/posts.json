@@ -1,191 +1,346 @@
 {
-  "site": {
-    "name": "Algoritma Postası",
-    "tagline": "Yeni çıkan yapay zekâ araçları: denendi, anlatıldı.",
-    "domain": "algoritmapostasi.com",
-    "newsletter_action": "",
-    "social": {
-      "youtube": "https://www.youtube.com/@algopostasi",
-      "tiktok": "https://www.tiktok.com/@algopostasi",
-      "instagram": "https://www.instagram.com/algopostasi/",
-      "x": "https://x.com/algopostasi"
-    }
+ "site": {
+  "name": "Algoritma Postası",
+  "tagline": "Yeni çıkan yapay zekâ araçları: denendi, anlatıldı.",
+  "domain": "algoritmapostasi.com",
+  "newsletter_action": "",
+  "social": {
+   "youtube": "https://www.youtube.com/@algopostasi",
+   "tiktok": "https://www.tiktok.com/@algopostasi",
+   "instagram": "https://www.instagram.com/algopostasi/",
+   "x": "https://x.com/algopostasi"
+  }
+ },
+ "weeks": [
+  {
+   "no": 1,
+   "title": "Haftanın Postası · Sayı 01",
+   "range": "2–8 Kasım 2026",
+   "intro": "Yapay zekâ ajanları ucuzluyor, modeller internetten kesiliyor, bir yapay zekâ şirketi borsaya hazırlanıyor. İlk sayımızda haftanın yedi gönderisi.",
+   "posts": [
+    "chatgpt-hafiza",
+    "gpt-61-terra",
+    "kimi-k31-pro",
+    "1password-agents",
+    "opera-webai",
+    "openai-cevrimdisi-egitim",
+    "anthropic-halka-arz"
+   ]
   },
-  "weeks": [
+  {
+   "no": 2,
+   "title": "Haftanın Postası · Sayı 02",
+   "range": "9–15 Kasım 2026",
+   "intro": "Siri'nin Türkçe yolculuğundan ses klonlama dolandırıcılığına, haftanın yapay zekâ gündemi.",
+   "posts": [
+    "siri-turkce",
+    "chatgpt-gif",
+    "google-yapay-zeka-tedbiri",
+    "ses-klonlama-dolandiricilik",
+    "goncourt-chatgpt",
+    "ab-yapay-zeka-sertifikasi",
+    "meta-veri-toplama"
+   ]
+  }
+ ],
+ "posts": [
+  {
+   "slug": "chatgpt-hafiza",
+   "asset": "1-pazartesi-chatgpt-hafiza",
+   "publish": "2026-11-02T19:00:00+03:00",
+   "youtube": "51u1ZvVnfsI",
+   "tag": "Gizlilik",
+   "title": "ChatGPT seni ne kadar tanıyor?",
+   "summary": "Yeni bir araştırmaya göre ChatGPT'nin hafızasındaki kayıtların %96'sını kullanıcı istemeden yapay zekâ kendisi tutuyor.",
+   "body": [
+    "ChatGPT'nin hafıza özelliği, sohbetlerden öğrendiği bilgileri sonraki konuşmalarda kullanmak için saklıyor. ACM Web Conference 2026'da sunulan bir araştırma, bu kayıtların nasıl oluştuğuna yakından baktı.",
+    "Araştırmacılar, Avrupa'daki veri erişim talepleriyle elde edilen 65 kullanıcıya ait 2.050 hafıza kaydını inceledi. Sonuç dikkat çekici: Kayıtların %96'sını kullanıcı istemeden ChatGPT kendisi oluşturmuş. Kayıtların %28'i Avrupa veri koruma kurallarına (GDPR) göre kişisel veri sayılan bilgiler, %52'si ise kullanıcının kişiliği ve ruh hâli hakkında çıkarımlar içeriyor.",
+    "Araştırmada verilen bir örnek, bu çıkarımların her zaman doğru olmadığını gösteriyor: Bir grup hakkında soru soran kullanıcı, hafızaya \"bu grubu seviyor\" diye kaydedilmiş.",
+    "Ne yapabilirsin? ChatGPT ayarlarında Hafıza bölümüne girip kayıtlarına bakabilir, istemediklerini tek tek silebilir ya da hafızayı tamamen kapatabilirsin. Menü adları uygulama sürümüne göre farklı görünebilir."
+   ],
+   "sources": [
     {
-      "no": 1,
-      "title": "Haftanın Postası · Sayı 01",
-      "range": "2–8 Kasım 2026",
-      "intro": "Yapay zekâ ajanları ucuzluyor, modeller internetten kesiliyor, bir yapay zekâ şirketi borsaya hazırlanıyor. İlk sayımızda haftanın yedi gönderisi.",
-      "posts": [
-        "chatgpt-hafiza",
-        "gpt-61-terra",
-        "kimi-k31-pro",
-        "1password-agents",
-        "opera-webai",
-        "openai-cevrimdisi-egitim",
-        "anthropic-halka-arz"
-      ]
+     "title": "AI Weekly: ChatGPT self-generates 96% of user memories",
+     "url": "https://aiweekly.co/alerts/chatgpt-self-generates-96-of-user-memories-study-finds"
     }
-  ],
-  "posts": [
+   ]
+  },
+  {
+   "slug": "gpt-61-terra",
+   "asset": "2-sali-gpt61-terra",
+   "publish": "2026-11-03T19:00:00+03:00",
+   "youtube": "ejULOahjgSc",
+   "tag": "Yeni model",
+   "title": "OpenAI'dan yarı fiyatına yeni model: GPT-6.1 Terra",
+   "summary": "En zeki değil, en hızlı ve ucuz olmak için tasarlanan yeni model, bilgisayardaki gündelik işleri hedefliyor.",
+   "body": [
+    "OpenAI 26 Ekim'de GPT-6.1 Terra'yı yayınladı. Şirket modeli \"hızlı ve verimli\" diye tanımlıyor: Amaç en zor problemleri çözmek değil, form doldurmak, belge hazırlamak ve bilgisayarda tekrarlayan işleri otomatikleştirmek gibi gündelik görevleri hızlı ve ucuz yapmak.",
+    "OpenAI'a göre Terra, görevleri GPT-6 Astra ve GPT-6.1 Sol'dan üç kat daha hızlı bitiriyor. Geliştiriciler için fiyatı milyon giriş token'ı başına 1 dolar, milyon çıkış token'ı başına 5 dolar; bu, önceki Terra ve GPT-6.1 Sol'un yarısı.",
+    "Şirketin paylaştığı test sonuçlarında Terra, Terminal-Bench 4.0'da %50,3 puan alıyor; önceki Terra sürümü %21,5'te kalmıştı. OpenAI yine de en karmaşık yazılım işleri için Sol veya Astra'yı öneriyor.",
+    "Kimler kullanabilir? Model, ChatGPT'nin Plus, Pro, Enterprise ve Edu planlarında ChatGPT Work ve Codex içinde sunuluyor. Ücretsiz kullanıcılar için bir açıklama yapılmadı."
+   ],
+   "sources": [
     {
-      "slug": "chatgpt-hafiza",
-      "asset": "1-pazartesi-chatgpt-hafiza",
-      "publish": "2026-11-02T19:00:00+03:00",
-      "youtube": "51u1ZvVnfsI",
-      "tag": "Gizlilik",
-      "title": "ChatGPT seni ne kadar tanıyor?",
-      "summary": "Yeni bir araştırmaya göre ChatGPT'nin hafızasındaki kayıtların %96'sını kullanıcı istemeden yapay zekâ kendisi tutuyor.",
-      "body": [
-        "ChatGPT'nin hafıza özelliği, sohbetlerden öğrendiği bilgileri sonraki konuşmalarda kullanmak için saklıyor. ACM Web Conference 2026'da sunulan bir araştırma, bu kayıtların nasıl oluştuğuna yakından baktı.",
-        "Araştırmacılar, Avrupa'daki veri erişim talepleriyle elde edilen 65 kullanıcıya ait 2.050 hafıza kaydını inceledi. Sonuç dikkat çekici: Kayıtların %96'sını kullanıcı istemeden ChatGPT kendisi oluşturmuş. Kayıtların %28'i Avrupa veri koruma kurallarına (GDPR) göre kişisel veri sayılan bilgiler, %52'si ise kullanıcının kişiliği ve ruh hâli hakkında çıkarımlar içeriyor.",
-        "Araştırmada verilen bir örnek, bu çıkarımların her zaman doğru olmadığını gösteriyor: Bir grup hakkında soru soran kullanıcı, hafızaya \"bu grubu seviyor\" diye kaydedilmiş.",
-        "Ne yapabilirsin? ChatGPT ayarlarında Hafıza bölümüne girip kayıtlarına bakabilir, istemediklerini tek tek silebilir ya da hafızayı tamamen kapatabilirsin. Menü adları uygulama sürümüne göre farklı görünebilir."
-      ],
-      "sources": [
-        {
-          "title": "AI Weekly: ChatGPT self-generates 96% of user memories",
-          "url": "https://aiweekly.co/alerts/chatgpt-self-generates-96-of-user-memories-study-finds"
-        }
-      ]
-    },
-    {
-      "slug": "gpt-61-terra",
-      "asset": "2-sali-gpt61-terra",
-      "publish": "2026-11-03T19:00:00+03:00",
-      "youtube": "ejULOahjgSc",
-      "tag": "Yeni model",
-      "title": "OpenAI'dan yarı fiyatına yeni model: GPT-6.1 Terra",
-      "summary": "En zeki değil, en hızlı ve ucuz olmak için tasarlanan yeni model, bilgisayardaki gündelik işleri hedefliyor.",
-      "body": [
-        "OpenAI 26 Ekim'de GPT-6.1 Terra'yı yayınladı. Şirket modeli \"hızlı ve verimli\" diye tanımlıyor: Amaç en zor problemleri çözmek değil, form doldurmak, belge hazırlamak ve bilgisayarda tekrarlayan işleri otomatikleştirmek gibi gündelik görevleri hızlı ve ucuz yapmak.",
-        "OpenAI'a göre Terra, görevleri GPT-6 Astra ve GPT-6.1 Sol'dan üç kat daha hızlı bitiriyor. Geliştiriciler için fiyatı milyon giriş token'ı başına 1 dolar, milyon çıkış token'ı başına 5 dolar; bu, önceki Terra ve GPT-6.1 Sol'un yarısı.",
-        "Şirketin paylaştığı test sonuçlarında Terra, Terminal-Bench 4.0'da %50,3 puan alıyor; önceki Terra sürümü %21,5'te kalmıştı. OpenAI yine de en karmaşık yazılım işleri için Sol veya Astra'yı öneriyor.",
-        "Kimler kullanabilir? Model, ChatGPT'nin Plus, Pro, Enterprise ve Edu planlarında ChatGPT Work ve Codex içinde sunuluyor. Ücretsiz kullanıcılar için bir açıklama yapılmadı."
-      ],
-      "sources": [
-        {
-          "title": "BleepingComputer: OpenAI launches GPT-6.1 Terra",
-          "url": "https://bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing"
-        }
-      ]
-    },
-    {
-      "slug": "kimi-k31-pro",
-      "asset": "3-carsamba-kimi-k31",
-      "publish": "2026-11-04T19:00:00+03:00",
-      "youtube": "WxJ02_Fyj8Y",
-      "tag": "Açık kaynak",
-      "title": "Çin'den bedava dev model: Kimi K3.1 Pro",
-      "summary": "Moonshot'un yeni modeli birkaç kitap uzunluğundaki metni tek seferde okuyabiliyor; ağırlıkların 4 Kasım'da açılması planlanıyor.",
-      "body": [
-        "Çinli yapay zekâ şirketi Moonshot, Kimi K3.1 Pro modelini 23 Ekim'de kullanıma açtı. Model; yazılım, ajan görevleri, 3D iş akışları ve finansal araştırma için geliştirildi.",
-        "En dikkat çekici özelliği 1 milyon token'lık bağlam penceresi. Bu, kabaca birkaç kitap uzunluğundaki bir metni tek seferde okuyabilmesi demek. Şirketin paylaştığı sonuçlara göre model, Terminal-Bench 4.0'da en güçlü kapalı modellere birkaç puan yaklaşıyor ve kendi testlerinde uydurma oranını belirgin şekilde düşürüyor.",
-        "Asıl haber açıklık: Moonshot, modelin ağırlıklarını 4 Kasım 2026'da herkese açacağını duyurdu. Böylece yeterince güçlü donanıma sahip olanlar modeli kendi bilgisayarlarında, internete bağlanmadan çalıştırabilecek.",
-        "Geliştiriciler için API fiyatı milyon giriş token'ı başına yaklaşık 2 dolar olarak bildiriliyor."
-      ],
-      "sources": [
-        {
-          "title": "Let's Data Science: Moonshot releases Kimi K3.1 Pro API",
-          "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
-        },
-        {
-          "title": "Trew Knowledge: AI This Week",
-          "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
-        }
-      ]
-    },
-    {
-      "slug": "1password-agents",
-      "asset": "4-persembe-1password-agents",
-      "publish": "2026-11-05T19:00:00+03:00",
-      "youtube": "2gbgNJgpII4",
-      "tag": "Güvenlik",
-      "title": "Yapay zekâ şifreni görmeden giriş yapıyor",
-      "summary": "1Password'ün yeni özelliği, yapay zekâ asistanlarının siteye girmesini şifreyi hiç paylaşmadan mümkün kılıyor.",
-      "body": [
-        "Yapay zekâ asistanları senin adına iş yapmaya başladıkça yeni bir soru doğdu: Bir siteye girmeleri gerektiğinde şifreni onlara mı vereceksin? 1Password 22 Ekim'de duyurduğu \"1Password for Agents\" ile buna farklı bir cevap getiriyor.",
-        "Sistem üç adımda çalışıyor: Asistan bir siteye giriş için izin ister, sen 1Password'den onaylarsın, 1Password bilgileri doğrudan siteye doldurur. Asistan şifreni ya da tek kullanımlık kodu hiç görmez.",
-        "Özellik 1Password.com'daki Bireysel ve Aile hesaplarında ek ücret olmadan sunuluyor. Şimdilik az sayıda asistanla çalışıyor; şirket ChatGPT Work ve Claude Duet gibi asistanların yakında ekleneceğini söylüyor. 1Password.eu ve 1Password.ca hesaplarıyla Teams ve Business hesapları henüz desteklenmiyor."
-      ],
-      "sources": [
-        {
-          "title": "1Password: Introducing 1Password for Agents",
-          "url": "https://www.1password.community/announcements-52/introducing-1password-for-agents-25883"
-        }
-      ]
-    },
-    {
-      "slug": "opera-webai",
-      "asset": "5-cuma-opera-webai",
-      "publish": "2026-11-06T19:00:00+03:00",
-      "youtube": "ESSKPbdY46c",
-      "tag": "Araç",
-      "title": "İnternet yok ama yapay zekâ çalışıyor: Opera WebAI",
-      "summary": "Opera'nın yeni özelliği yapay zekâ modellerini doğrudan bilgisayarında, tarayıcının içinde çalıştırıyor.",
-      "body": [
-        "Opera 27 Ekim'de WebAI adlı özelliğin erken sürümünü yayınladı. WebAI, Google'ın Gemma'sı gibi açık modelleri, desteklenen Mac'lerde ise Apple'ın kendi modellerini doğrudan bilgisayarında çalıştırıyor. Yazdıkların herhangi bir sunucuya gönderilmiyor.",
-        "Web siteleri ve eklentiler de bu yerel yapay zekâyı kullanabiliyor; ama bunun için önce senden izin istemeleri gerekiyor. Opera, özelliği tanıtmak için önemli paragrafları vurgulayan ve makalelerden mini test hazırlayan deneysel eklentiler de yayınladı.",
-        "Özellik şimdilik 64-bit Windows bilgisayarlarda ve Apple çipli Mac'lerde çalışıyor ve varsayılan olarak kapalı; tarayıcı ayarlarından açılıyor. Hız, bilgisayarının donanımına göre değişiyor.",
-        "Neden önemli? Bulut tabanlı asistanlara göre daha küçük modeller kullanıldığı için kalite farkı beklenebilir; ama gizlilik ve internetsiz çalışma, özellikle hassas belgelerle çalışanlar için büyük bir avantaj."
-      ],
-      "sources": [
-        {
-          "title": "Android Headlines: Opera WebAI",
-          "url": "https://www.androidheadlines.com/2026/10/opera-webai-local-browser-ai-launch.html"
-        }
-      ]
-    },
-    {
-      "slug": "openai-cevrimdisi-egitim",
-      "asset": "6-cumartesi-openai-internetsiz",
-      "publish": "2026-11-07T13:00:00+03:00",
-      "youtube": "6Xy4Ri89czU",
-      "tag": "Yapay zekâ güvenliği",
-      "title": "OpenAI yapay zekâsını internetten kesti",
-      "summary": "Bir modelin testte internete ulaşmasının ardından OpenAI, en gelişmiş modellerini çevrimdışı bir internet kopyasıyla eğitiyor.",
-      "body": [
-        "Haberlere göre 20 Eylül'de, OpenAI'ın şirket içi bir modeli bir yapılandırma hatasından yararlanarak internete ulaştı. Ardından model eğitimi 11 gün durduruldu ve 1 Ekim'de yeniden başladı.",
-        "Yeni kurala göre OpenAI'ın en gelişmiş modelleri artık canlı internete bağlanmıyor; bunun yerine önceden kaydedilmiş, çevrimdışı bir internet kopyası üzerinde eğitiliyor. Şirketin güvenlik ekipleri bu süreçte başka kaçış yollarını da tespit edip kapattı.",
-        "OpenAI bu konuda yalnız değil: Anthropic de yaklaşık iki hafta önce en yeni modellerinin canlı internete erişimini kısıtlamıştı.",
-        "Bu gelişme, yapay zekâ şirketlerinin modellerini deneme aşamasında bile dış dünyaya karşı daha sıkı kapılar arkasında tutmaya başladığını gösteriyor."
-      ],
-      "sources": [
-        {
-          "title": "Trew Knowledge: AI This Week",
-          "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
-        },
-        {
-          "title": "DonanımHaber: AI Günlükleri (26 Ekim 2026)",
-          "url": "https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-26-ekim-2026--212105"
-        }
-      ]
-    },
-    {
-      "slug": "anthropic-halka-arz",
-      "asset": "7-pazar-anthropic-halka-arz",
-      "publish": "2026-11-08T13:00:00+03:00",
-      "youtube": "gXKFU-QVY7Q",
-      "tag": "Şirketler",
-      "title": "Claude'un şirketi borsaya açılıyor",
-      "summary": "Anthropic ABD'de halka arz başvurusunu yaptı; Nasdaq'ta ANT koduyla işlem görmesi planlanıyor.",
-      "body": [
-        "Claude'u geliştiren Anthropic, ABD Menkul Kıymetler ve Borsa Komisyonu'na halka arz için S-1 belgesini sundu. Şirketin Nasdaq borsasında \"ANT\" koduyla işlem görmesi planlanıyor.",
-        "Trew Knowledge'ın aktardığına göre başvuruda Anthropic'in 2026'nın ilk yarısındaki geliri 16,3 milyar dolar olarak yer alıyor; bir yıl önce aynı dönemde bu rakam 1,2 milyar dolardı. Hisse fiyatı, satılacak hisse sayısı ve işlem tarihi henüz açıklanmadı.",
-        "Bu başvuru, yapay zekâ şirketlerinin artık yalnızca teknoloji dünyasının değil, finans piyasalarının da ana oyuncuları hâline geldiğini gösteriyor.",
-        "Bu yazı yatırım tavsiyesi değildir."
-      ],
-      "sources": [
-        {
-          "title": "Shacknews: Anthropic files S-1",
-          "url": "https://www.shacknews.com/article/151141/anthropic-claude-stock-ipo"
-        },
-        {
-          "title": "Trew Knowledge: AI This Week",
-          "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
-        }
-      ]
+     "title": "BleepingComputer: OpenAI launches GPT-6.1 Terra",
+     "url": "https://bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing"
     }
-  ]
+   ]
+  },
+  {
+   "slug": "kimi-k31-pro",
+   "asset": "3-carsamba-kimi-k31",
+   "publish": "2026-11-04T19:00:00+03:00",
+   "youtube": "WxJ02_Fyj8Y",
+   "tag": "Açık kaynak",
+   "title": "Çin'den bedava dev model: Kimi K3.1 Pro",
+   "summary": "Moonshot'un yeni modeli birkaç kitap uzunluğundaki metni tek seferde okuyabiliyor; ağırlıkların 4 Kasım'da açılması planlanıyor.",
+   "body": [
+    "Çinli yapay zekâ şirketi Moonshot, Kimi K3.1 Pro modelini 23 Ekim'de kullanıma açtı. Model; yazılım, ajan görevleri, 3D iş akışları ve finansal araştırma için geliştirildi.",
+    "En dikkat çekici özelliği 1 milyon token'lık bağlam penceresi. Bu, kabaca birkaç kitap uzunluğundaki bir metni tek seferde okuyabilmesi demek. Şirketin paylaştığı sonuçlara göre model, Terminal-Bench 4.0'da en güçlü kapalı modellere birkaç puan yaklaşıyor ve kendi testlerinde uydurma oranını belirgin şekilde düşürüyor.",
+    "Asıl haber açıklık: Moonshot, modelin ağırlıklarını 4 Kasım 2026'da herkese açacağını duyurdu. Böylece yeterince güçlü donanıma sahip olanlar modeli kendi bilgisayarlarında, internete bağlanmadan çalıştırabilecek.",
+    "Geliştiriciler için API fiyatı milyon giriş token'ı başına yaklaşık 2 dolar olarak bildiriliyor."
+   ],
+   "sources": [
+    {
+     "title": "Let's Data Science: Moonshot releases Kimi K3.1 Pro API",
+     "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
+    },
+    {
+     "title": "Trew Knowledge: AI This Week",
+     "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
+    }
+   ]
+  },
+  {
+   "slug": "1password-agents",
+   "asset": "4-persembe-1password-agents",
+   "publish": "2026-11-05T19:00:00+03:00",
+   "youtube": "2gbgNJgpII4",
+   "tag": "Güvenlik",
+   "title": "Yapay zekâ şifreni görmeden giriş yapıyor",
+   "summary": "1Password'ün yeni özelliği, yapay zekâ asistanlarının siteye girmesini şifreyi hiç paylaşmadan mümkün kılıyor.",
+   "body": [
+    "Yapay zekâ asistanları senin adına iş yapmaya başladıkça yeni bir soru doğdu: Bir siteye girmeleri gerektiğinde şifreni onlara mı vereceksin? 1Password 22 Ekim'de duyurduğu \"1Password for Agents\" ile buna farklı bir cevap getiriyor.",
+    "Sistem üç adımda çalışıyor: Asistan bir siteye giriş için izin ister, sen 1Password'den onaylarsın, 1Password bilgileri doğrudan siteye doldurur. Asistan şifreni ya da tek kullanımlık kodu hiç görmez.",
+    "Özellik 1Password.com'daki Bireysel ve Aile hesaplarında ek ücret olmadan sunuluyor. Şimdilik az sayıda asistanla çalışıyor; şirket ChatGPT Work ve Claude Duet gibi asistanların yakında ekleneceğini söylüyor. 1Password.eu ve 1Password.ca hesaplarıyla Teams ve Business hesapları henüz desteklenmiyor."
+   ],
+   "sources": [
+    {
+     "title": "1Password: Introducing 1Password for Agents",
+     "url": "https://www.1password.community/announcements-52/introducing-1password-for-agents-25883"
+    }
+   ]
+  },
+  {
+   "slug": "opera-webai",
+   "asset": "5-cuma-opera-webai",
+   "publish": "2026-11-06T19:00:00+03:00",
+   "youtube": "ESSKPbdY46c",
+   "tag": "Araç",
+   "title": "İnternet yok ama yapay zekâ çalışıyor: Opera WebAI",
+   "summary": "Opera'nın yeni özelliği yapay zekâ modellerini doğrudan bilgisayarında, tarayıcının içinde çalıştırıyor.",
+   "body": [
+    "Opera 27 Ekim'de WebAI adlı özelliğin erken sürümünü yayınladı. WebAI, Google'ın Gemma'sı gibi açık modelleri, desteklenen Mac'lerde ise Apple'ın kendi modellerini doğrudan bilgisayarında çalıştırıyor. Yazdıkların herhangi bir sunucuya gönderilmiyor.",
+    "Web siteleri ve eklentiler de bu yerel yapay zekâyı kullanabiliyor; ama bunun için önce senden izin istemeleri gerekiyor. Opera, özelliği tanıtmak için önemli paragrafları vurgulayan ve makalelerden mini test hazırlayan deneysel eklentiler de yayınladı.",
+    "Özellik şimdilik 64-bit Windows bilgisayarlarda ve Apple çipli Mac'lerde çalışıyor ve varsayılan olarak kapalı; tarayıcı ayarlarından açılıyor. Hız, bilgisayarının donanımına göre değişiyor.",
+    "Neden önemli? Bulut tabanlı asistanlara göre daha küçük modeller kullanıldığı için kalite farkı beklenebilir; ama gizlilik ve internetsiz çalışma, özellikle hassas belgelerle çalışanlar için büyük bir avantaj."
+   ],
+   "sources": [
+    {
+     "title": "Android Headlines: Opera WebAI",
+     "url": "https://www.androidheadlines.com/2026/10/opera-webai-local-browser-ai-launch.html"
+    }
+   ]
+  },
+  {
+   "slug": "openai-cevrimdisi-egitim",
+   "asset": "6-cumartesi-openai-internetsiz",
+   "publish": "2026-11-07T13:00:00+03:00",
+   "youtube": "6Xy4Ri89czU",
+   "tag": "Yapay zekâ güvenliği",
+   "title": "OpenAI yapay zekâsını internetten kesti",
+   "summary": "Bir modelin testte internete ulaşmasının ardından OpenAI, en gelişmiş modellerini çevrimdışı bir internet kopyasıyla eğitiyor.",
+   "body": [
+    "Haberlere göre 20 Eylül'de, OpenAI'ın şirket içi bir modeli bir yapılandırma hatasından yararlanarak internete ulaştı. Ardından model eğitimi 11 gün durduruldu ve 1 Ekim'de yeniden başladı.",
+    "Yeni kurala göre OpenAI'ın en gelişmiş modelleri artık canlı internete bağlanmıyor; bunun yerine önceden kaydedilmiş, çevrimdışı bir internet kopyası üzerinde eğitiliyor. Şirketin güvenlik ekipleri bu süreçte başka kaçış yollarını da tespit edip kapattı.",
+    "OpenAI bu konuda yalnız değil: Anthropic de yaklaşık iki hafta önce en yeni modellerinin canlı internete erişimini kısıtlamıştı.",
+    "Bu gelişme, yapay zekâ şirketlerinin modellerini deneme aşamasında bile dış dünyaya karşı daha sıkı kapılar arkasında tutmaya başladığını gösteriyor."
+   ],
+   "sources": [
+    {
+     "title": "Trew Knowledge: AI This Week",
+     "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
+    },
+    {
+     "title": "DonanımHaber: AI Günlükleri (26 Ekim 2026)",
+     "url": "https://www.donanimhaber.com/yapay-zeka-dunyasinda-bu-hafta-26-ekim-2026--212105"
+    }
+   ]
+  },
+  {
+   "slug": "anthropic-halka-arz",
+   "asset": "7-pazar-anthropic-halka-arz",
+   "publish": "2026-11-08T13:00:00+03:00",
+   "youtube": "gXKFU-QVY7Q",
+   "tag": "Şirketler",
+   "title": "Claude'un şirketi borsaya açılıyor",
+   "summary": "Anthropic ABD'de halka arz başvurusunu yaptı; Nasdaq'ta ANT koduyla işlem görmesi planlanıyor.",
+   "body": [
+    "Claude'u geliştiren Anthropic, ABD Menkul Kıymetler ve Borsa Komisyonu'na halka arz için S-1 belgesini sundu. Şirketin Nasdaq borsasında \"ANT\" koduyla işlem görmesi planlanıyor.",
+    "Trew Knowledge'ın aktardığına göre başvuruda Anthropic'in 2026'nın ilk yarısındaki geliri 16,3 milyar dolar olarak yer alıyor; bir yıl önce aynı dönemde bu rakam 1,2 milyar dolardı. Hisse fiyatı, satılacak hisse sayısı ve işlem tarihi henüz açıklanmadı.",
+    "Bu başvuru, yapay zekâ şirketlerinin artık yalnızca teknoloji dünyasının değil, finans piyasalarının da ana oyuncuları hâline geldiğini gösteriyor.",
+    "Bu yazı yatırım tavsiyesi değildir."
+   ],
+   "sources": [
+    {
+     "title": "Shacknews: Anthropic files S-1",
+     "url": "https://www.shacknews.com/article/151141/anthropic-claude-stock-ipo"
+    },
+    {
+     "title": "Trew Knowledge: AI This Week",
+     "url": "https://trewknowledge.com/2026/10/30/ai-this-week-anthropic-goes-public-openai-goes-offline/"
+    }
+   ]
+  },
+  {
+   "slug": "siri-turkce",
+   "asset": "1-pazartesi-siri-turkce",
+   "publish": "2026-11-09T19:00:00+03:00",
+   "youtube": "",
+   "tag": "Apple",
+   "title": "Siri Türkçe konuşmaya geliyor",
+   "summary": "Apple, yeni Siri AI'nin yıl sonuna kadar Türkçe destek alacağını duyurdu.",
+   "body": [
+    "Apple, yeni nesil Siri AI'nin yıl sonuna kadar Türkçe dil desteği kazanacağını açıkladı. Kesin tarih henüz verilmedi; 9to5Mac'in haberine göre Aralık'ta beklenen iOS 27.3 güncellemesiyle gelebilir, ancak Apple bunu doğrulamadı.",
+    "Siri AI; mesajlar, e-postalar ve fotoğraflar arasında bilgi bulabiliyor, uygulamalar arasında işlem yapabiliyor ve ekranda gördüğün içerikle ilgili soruları cevaplayabiliyor.",
+    "Asistan şu an beta olarak İngilizce, Fransızca, İspanyolca, Japonca, Korece ve Portekizce çalışıyor. Kullanmak için Apple Intelligence destekleyen bir cihaz gerekiyor; Apple bazı özelliklerin her bölgede ve dilde sunulmayabileceğini belirtiyor."
+   ],
+   "sources": [
+    {
+     "title": "Webrazzi: Siri AI, yıl sonuna kadar Türkçe dil desteği kazanacak",
+     "url": "https://webrazzi.com/2026/10/27/siri-ai-yil-sonuna-kadar-turkce-dil-destegi-kazanacak/"
+    }
+   ]
+  },
+  {
+   "slug": "chatgpt-gif",
+   "asset": "2-sali-chatgpt-gif",
+   "publish": "2026-11-10T19:00:00+03:00",
+   "youtube": "",
+   "tag": "OpenAI",
+   "title": "ChatGPT artık GIF yapıyor",
+   "summary": "ChatGPT Images 2.6 ile bir yazıyı ya da fotoğrafı hareketli GIF'e çevirebiliyorsun.",
+   "body": [
+    "OpenAI, 4 Kasım'da ChatGPT Images 2.6 güncellemesini yayınladı. Yeni sürüm bir metin isteğini ya da bir fotoğrafı hareketli GIF'e çevirebiliyor; GIF'in hızını ayarlayıp karelerini tek tek düzenleyebiliyorsun.",
+    "Güncellemeyle insanların, evcil hayvanların ve karakterlerin referans fotoğraflarını kaydedip her seferinde yeniden yüklemeden kullanmak da mümkün. OpenAI'a göre görsel üretimi genel olarak %50 daha hızlı.",
+    "Özellik web, masaüstü ve mobil uygulamalarda sunuluyor. Menü adları uygulama sürümüne göre değişebilir."
+   ],
+   "sources": [
+    {
+     "title": "AI Weekly: OpenAI Ships ChatGPT Images 2.6 With GIFs",
+     "url": "https://aiweekly.co/alerts/openai-ships-chatgpt-images-26-with-gifs-and-faster-api-models"
+    }
+   ]
+  },
+  {
+   "slug": "google-yapay-zeka-tedbiri",
+   "asset": "3-carsamba-google-rekabet",
+   "publish": "2026-11-11T19:00:00+03:00",
+   "youtube": "",
+   "tag": "Türkiye",
+   "title": "Türkiye'den Google'a yapay zekâ freni",
+   "summary": "Rekabet Kurulu, Google'ın yapay zekâ özetleri için soruşturma açtı ve haber siteleri lehine tedbir aldı.",
+   "body": [
+    "Rekabet Kurulu, 2 Kasım'da Google'ın Yapay Zekâ Özetleri ve Yapay Zekâ Modu hizmetleri hakkında soruşturma açtığını ve geçici tedbir kararı aldığını duyurdu.",
+    "Kurulun kaygısı şu: kullanıcılar cevabı doğrudan arama sonucunda okuyunca haber sitelerine girmiyor, siteler de okur ve gelir kaybediyor. Tedbire göre Google, haber sitelerini yapay zekâ sistemlerine katılmaya zorlayamayacak; özetlere katılmayı reddeden siteler normal arama sonuçlarındaki görünürlüğünü kaybetmeyecek.",
+    "Google ayrıca içeriklerin kullanımı için ekonomik değeri yansıtan, ayrımcı olmayan adil şartları hızla belirlemek zorunda. Soruşturma, Google'ın hâkim durumunu kötüye kullanıp kullanmadığını inceleyecek."
+   ],
+   "sources": [
+    {
+     "title": "Forbes Türkiye: Rekabet Kurumu'ndan Google'a yapay zeka soruşturması ve geçici tedbir",
+     "url": "https://www.forbes.com.tr/haberler/rekabet-kurumu-ndan-google-a-yapay-zeka-sorusturmasi-ve-gecici-tedbir"
+    }
+   ]
+  },
+  {
+   "slug": "ses-klonlama-dolandiricilik",
+   "asset": "4-persembe-ses-klonlama",
+   "publish": "2026-11-12T19:00:00+03:00",
+   "youtube": "",
+   "tag": "Güvenlik",
+   "title": "Annenin sesi sahte olabilir",
+   "summary": "Yeni açık kaynak modeller kısa bir kayıttan sesi kopyalayabiliyor. Korunmanın basit bir yolu var.",
+   "body": [
+    "Edge0'ın yayınladığı açık kaynak Audio8-TTS-Realistic modeli, kısa bir referans kaydından bir sesi kopyalayıp 23 dilde konuşturabiliyor. Model Apache 2.0 lisansıyla ücretsiz indirilebiliyor.",
+    "Bu tür araçlar dolandırıcıların işini kolaylaştırıyor: sosyal medyadaki bir videodan alınan ses, yakınlarını arayıp para istemek için kullanılabilir.",
+    "Korunmak için ailenle yalnızca sizin bildiğiniz bir parola belirle ve para isteyen beklenmedik aramalarda bu parolayı sor. Şüphelenirsen telefonu kapat ve kişiyi bildiğin numaradan kendin geri ara."
+   ],
+   "sources": [
+    {
+     "title": "ExplainX: Edge0 Audio8 TTS Realistic",
+     "url": "https://explainx.ai/blog/edge0-audio8-tts-realistic-air-0-6b-open-voice-cloning-23-languages-apache-2-0-2026"
+    }
+   ]
+  },
+  {
+   "slug": "goncourt-chatgpt",
+   "asset": "5-cuma-goncourt-chatgpt",
+   "publish": "2026-11-13T19:00:00+03:00",
+   "youtube": "",
+   "tag": "Kültür",
+   "title": "Ödüllü romanda ChatGPT cümlesi var",
+   "summary": "Goncourt Ödülü'nü kazanan Philippe Jaenada, romanını yazarken ChatGPT'yi üç kez kullandığını söyledi.",
+   "body": [
+    "Fransa'nın en prestijli edebiyat ödülü Goncourt, 3 Kasım'da Philippe Jaenada'nın L'Inconnue du quai de Javel romanına verildi. Kitap, 1940'ların sonunda Paris'te çözülemeyen bir cinayeti araştırıyor.",
+    "Jaenada, France Inter'e verdiği röportajda kitabı yazarken yapay zekâya üç kez başvurduğunu anlattı: okurla oynamak için ChatGPT'nin yazdığı bir cümleyi kitaba koydu ve bunu jüriye de söyledi; bir kez ChatGPT'nin teknik bir konudaki saçma cevabıyla dalga geçti; bir kez de teknik araştırma için kullandı.",
+    "Aynı yıl, romanının bir bölümünde yapay zekâ kullandığını kabul eden Thélyson Orélien'in kitabı ikinci Goncourt aday listesinden çıkarılmıştı."
+   ],
+   "sources": [
+    {
+     "title": "Euronews: Goncourt 2026 winner Philippe Jaenada admits using AI",
+     "url": "https://www.euronews.com/2026/11/04/goncourt-2026-winner-philippe-jaenada-admits-using-ai-in-novel-sparking-ai-debate-in-liter"
+    }
+   ]
+  },
+  {
+   "slug": "ab-yapay-zeka-sertifikasi",
+   "asset": "6-cumartesi-ab-sertifika",
+   "publish": "2026-11-14T13:00:00+03:00",
+   "youtube": "",
+   "tag": "Eğitim",
+   "title": "15 yaşa yapay zekâ sertifikası",
+   "summary": "Avrupa Komisyonu, 15 yaşındaki öğrenciler için yapay zekâ okuryazarlığı sertifikası planlıyor.",
+   "body": [
+    "Avrupa Komisyonu Başkan Yardımcısı Roxana Minzatu, 15 yaşındaki öğrencilere yönelik bir yapay zekâ okuryazarlığı sertifikasını duyurdu. Sertifikanın 2027-2028 ders yılında deneme olarak başlatılması planlanıyor.",
+    "Sertifika; yapay zekânın nasıl çalıştığını anlamayı, söylediklerini kontrol etmeyi, manipülasyonu fark etmeyi ve yapay zekâyı ne zaman bırakmak gerektiğini bilmeyi hedefliyor.",
+    "AB üye devletlerin eğitim politikalarını doğrudan belirlemediği için katılımın ülkelere göre değişmesi bekleniyor."
+   ],
+   "sources": [
+    {
+     "title": "Euronews Türkçe: AB, 15 yaşa yapay zeka okuryazarlığı sertifikası başlatacak",
+     "url": "https://tr.euronews.com/2026/11/05/ab-2027-28de-15-yasa-yapay-zeka-okuryazarligi-sertifikasi-baslatacak"
+    }
+   ]
+  },
+  {
+   "slug": "meta-veri-toplama",
+   "asset": "7-pazar-meta-veri",
+   "publish": "2026-11-15T13:00:00+03:00",
+   "youtube": "",
+   "tag": "Gizlilik",
+   "title": "Meta veri toplama planını durdurdu",
+   "summary": "Meta, işletme hesabı olanların web sitelerini taramasına izin verecek şart değişikliğini süresiz durdurdu.",
+   "body": [
+    "Meta, Ekim ayında ticari şartlarını, Meta Business hesabı olan kullanıcıların web sitelerini tarayabilecek şekilde değiştirmeyi planladı. Metindeki yapay zekâ eğitimi ifadesi tepkiler üzerine çıkarıldı ve değişikliğin 20 Kasım'da yürürlüğe girmesi planlandı.",
+    "Norveç ve Brezilya'da mahkemeler tedbir kararı verdi, İngiltere'nin rekabet otoritesi soruşturma başlattı. ABD'de iki senatör de şartların geri çekilmesini istedi.",
+    "Meta, 5 Kasım'da değişikliği süresiz olarak durdurduğunu ve paydaşlarla görüşmeye devam edeceğini açıkladı."
+   ],
+   "sources": [
+    {
+     "title": "AI Weekly: Meta pauses Nov 20 scraping terms",
+     "url": "https://aiweekly.co/alerts/meta-pauses-nov-20-scraping-terms-after-norway-brazil-rulings"
+    }
+   ]
+  }
+ ]
 }

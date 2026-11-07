@@ -147,6 +147,8 @@ def newsletter(up):
 </section>'''
 
 def yt(p, up):
+    if not p.get('youtube'):
+        return f'''<div class="yt"><img src="{up}assets/kapak/{p['asset']}.jpg" alt="" loading="lazy" width="270" height="480"></div>'''
     return f'''<div class="yt" data-id="{p['youtube']}">
     <img src="{up}assets/kapak/{p['asset']}.jpg" alt="" loading="lazy" width="270" height="480">
     <button type="button" class="play" aria-label="Videoyu oynat: {e(p['title'])}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
@@ -213,7 +215,7 @@ def build_posts():
       <div class="post-video">
         {yt(p, up)}
         <div class="watch">
-          <a href="https://www.youtube.com/shorts/{p['youtube']}" rel="noopener">YouTube'da izle</a>
+          <a href="{('https://www.youtube.com/shorts/'+p['youtube']) if p.get('youtube') else SITE['social']['youtube']}" rel="noopener">YouTube'da izle</a>
           <a href="{SITE['social']['tiktok']}" rel="noopener">TikTok</a>
           <a href="{SITE['social']['instagram']}" rel="noopener">Instagram</a>
         </div>
