@@ -205,7 +205,7 @@
   {
    "slug": "siri-turkce",
    "asset": "1-pazartesi-siri-turkce",
-   "publish": "2026-11-09T19:00:00+03:00",
+   "publish": "2026-11-09T18:00:00+03:00",
    "youtube": "",
    "tag": "Apple",
    "title": "Siri Türkçe konuşmaya geliyor",
@@ -225,7 +225,7 @@
   {
    "slug": "chatgpt-gif",
    "asset": "2-sali-chatgpt-gif",
-   "publish": "2026-11-10T19:00:00+03:00",
+   "publish": "2026-11-10T18:00:00+03:00",
    "youtube": "",
    "tag": "OpenAI",
    "title": "ChatGPT artık GIF yapıyor",
@@ -245,7 +245,7 @@
   {
    "slug": "google-yapay-zeka-tedbiri",
    "asset": "3-carsamba-google-rekabet",
-   "publish": "2026-11-11T19:00:00+03:00",
+   "publish": "2026-11-11T18:00:00+03:00",
    "youtube": "",
    "tag": "Türkiye",
    "title": "Türkiye'den Google'a yapay zekâ freni",
@@ -265,7 +265,7 @@
   {
    "slug": "ses-klonlama-dolandiricilik",
    "asset": "4-persembe-ses-klonlama",
-   "publish": "2026-11-12T19:00:00+03:00",
+   "publish": "2026-11-12T18:00:00+03:00",
    "youtube": "",
    "tag": "Güvenlik",
    "title": "Annenin sesi sahte olabilir",
@@ -285,7 +285,7 @@
   {
    "slug": "goncourt-chatgpt",
    "asset": "5-cuma-goncourt-chatgpt",
-   "publish": "2026-11-13T19:00:00+03:00",
+   "publish": "2026-11-13T18:00:00+03:00",
    "youtube": "",
    "tag": "Kültür",
    "title": "Ödüllü romanda ChatGPT cümlesi var",
@@ -305,7 +305,7 @@
   {
    "slug": "ab-yapay-zeka-sertifikasi",
    "asset": "6-cumartesi-ab-sertifika",
-   "publish": "2026-11-14T13:00:00+03:00",
+   "publish": "2026-11-14T18:00:00+03:00",
    "youtube": "",
    "tag": "Eğitim",
    "title": "15 yaşa yapay zekâ sertifikası",
@@ -325,7 +325,7 @@
   {
    "slug": "meta-veri-toplama",
    "asset": "7-pazar-meta-veri",
-   "publish": "2026-11-15T13:00:00+03:00",
+   "publish": "2026-11-15T18:00:00+03:00",
    "youtube": "",
    "tag": "Gizlilik",
    "title": "Meta veri toplama planını durdurdu",
