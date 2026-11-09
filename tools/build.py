@@ -169,7 +169,8 @@ def build_index():
 </article>'''
     else:
         feature = f'''<div class="empty-feature">{stamp_svg()}<p>İlk posta yolda. Açılış: <b>{tarih_uzun(UPCOMING[0])}</b></p></div>''' if UPCOMING else ''
-    shown = [p for p in reversed(week_visible(cur_week))]
+    # Son 9 posta (hafta fark etmeksizin); en üstteki öne çıkan posta tekrar edilmez
+    shown = list(reversed(VISIBLE[:-1]))[:9]
     cards = next_card() + ''.join(card(p, '') for p in shown)
     body = f'''<section class="hero">
   <div class="wrap">
@@ -186,7 +187,7 @@ def build_index():
 </section>
 <section id="postalar" class="week">
   <div class="wrap">
-    <div class="sec-head"><h2>Bu haftanın postaları</h2><a href="arsiv/">Tüm arşiv</a></div>
+    <div class="sec-head"><h2>Son postalar</h2><a href="arsiv/">Tüm arşiv</a></div>
     <ol class="cards">{cards}</ol>
   </div>
 </section>
