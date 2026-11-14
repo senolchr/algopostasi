@@ -41,6 +41,21 @@
     "ab-yapay-zeka-sertifikasi",
     "meta-veri-toplama"
    ]
+  },
+  {
+   "no": 3,
+   "title": "Haftanın Postası · Sayı 03",
+   "range": "16–22 Kasım 2026",
+   "intro": "Nvidia'daki istifadan açık kalan Grok linklerine, haftanın yapay zekâ gündemi.",
+   "posts": [
+    "nvidia-ceo-istifa",
+    "grok-paylasim-linki",
+    "turkce-siri-beta",
+    "google-vids-bedava-video",
+    "steam-yapay-zeka-oyunlar",
+    "airbnb-yapay-zeka-destek",
+    "gemini-bellek-ozeti"
+   ]
   }
  ],
  "posts": [
@@ -339,6 +354,158 @@
     {
      "title": "AI Weekly: Meta pauses Nov 20 scraping terms",
      "url": "https://aiweekly.co/alerts/meta-pauses-nov-20-scraping-terms-after-norway-brazil-rulings"
+    }
+   ]
+  },
+  {
+   "slug": "nvidia-ceo-istifa",
+   "asset": "1-pazartesi-nvidia-istifa",
+   "publish": "2026-11-16T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Şirketler",
+   "title": "Nvidia'nın kurucusu Jensen Huang istifa etti",
+   "summary": "Nvidia, kurucusu Jensen Huang'ın CEO'luktan ve yönetim kurulundan istifa ettiğini, finans direktörü Colette Kress'in geçici CEO olduğunu açıkladı.",
+   "body": [
+    "Nvidia yönetim kurulu 12 Kasım'da, Jensen Huang'ın başkanlık, CEO'luk ve yönetim kurulu üyeliğinden derhâl geçerli olmak üzere istifa ettiğini duyurdu. Şirketin açıklamasında istifa nedeni yer almıyor.",
+    "Şirketin 2013'ten beri finans direktörü olan Colette Kress, kalıcı bir isim bulunana kadar geçici CEO olarak görev yapacak. Harvey C. Jones da şirketin ilk yönetim kurulu başkanı oldu. Kurul, şirket içinden ve dışından adayları değerlendireceğini söyledi.",
+    "Nvidia, çeyrek sonuçlarını önceden planlandığı gibi 17 Kasım'da açıklayacak. Yatırım tavsiyesi değildir."
+   ],
+   "sources": [
+    {
+     "title": "NVIDIA: Form 8-K, CEO değişikliği (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    }
+   ]
+  },
+  {
+   "slug": "grok-paylasim-linki",
+   "asset": "2-sali-grok-paylasim-linki",
+   "publish": "2026-11-17T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Güvenlik",
+   "title": "Linki olan her şeyi görüyor: 35 bin Grok uygulaması açıkta kaldı",
+   "summary": "Güvenlik firması Claroc'a göre Grok Build ile yapılmış 35 binden fazla uygulama, paylaşım linki üzerinden girişsiz açılabiliyordu.",
+   "body": [
+    "Güvenlik firması Claroc, 10 Kasım'da yayımladığı araştırmada Grok Build ile yapılmış 35 binden fazla uygulamanın oturum açmadan erişilebilir olduğunu bildirdi. Uygulamaların çoğu oyun, tanıtım sayfası ve hesap makinesiydi; ancak yaklaşık onda birinde iş ya da kişisel veri bulunuyordu.",
+    "Açıkta kalan veriler arasında hastane kayıtları, çalışan şifreleri ve şirket içi belgeler vardı. Cursor adına konuşan bir temsilci, uygulamaların varsayılan olarak gizli olduğunu ve yalnızca yapan kişi paylaşırsa açığa çıktığını söyledi; benzer paylaşım linklerinin ChatGPT gibi araçlarda da bulunduğunu ekledi.",
+    "Yapay zekâ araçlarıyla hazırladığın bir şeyi paylaşmadan önce 'linki olan herkes' ayarını kontrol et; hassas veriyi bu tür linklerle paylaşma."
+   ],
+   "sources": [
+    {
+     "title": "Cybernews: Grok's security blind spot",
+     "url": "https://cybernews.com/security/groks-data-leak-spacexsi/"
+    },
+    {
+     "title": "IBTimes UK: Grok Build apps exposed sensitive data",
+     "url": "https://www.ibtimes.co.uk/grok-build-apps-exposed-sensitive-data-without-sign-1831677"
+    }
+   ]
+  },
+  {
+   "slug": "turkce-siri-beta",
+   "asset": "3-carsamba-siri-turkce-beta",
+   "publish": "2026-11-18T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Apple",
+   "title": "Türkçe Siri test edilmeye başladı",
+   "summary": "iOS 27.3 geliştirici betasında yeni Siri Türkçe konuşabiliyor; sürüm henüz herkese açık değil.",
+   "body": [
+    "Apple, 3 Kasım'da iOS 27.3'ün ilk geliştirici betasını yayımladı. Teknoblog'un paylaştığı ekran görüntülerinde Siri AI'ın beta ayarlarında Türkçe seçilebildiği ve sorulara Türkçe yanıt verdiği görülüyor.",
+    "Güncelleme şimdilik geliştirici testinde; kararlı sürüm henüz yayımlanmadı. Siri AI için Apple Intelligence destekleyen bir cihaz ve cihaz diliyle Siri dilinin aynı desteklenen dilde olması gerekiyor.",
+    "Apple, 26 Ekim'de Siri AI'a Türkçe desteğin yıl sonuna kadar geleceğini açıklamıştı. Betayı günlük kullandığın telefona kurmak yerine kararlı güncellemeyi beklemek daha güvenli."
+   ],
+   "sources": [
+    {
+     "title": "Teknoblog: iOS 27.3 beta yayımlandı, Siri AI artık Türkçe konuşuyor",
+     "url": "https://teknoblog.com/ios-27-3-ilk-gelistirici-betasi-yayimlandi"
+    },
+    {
+     "title": "9to5Mac: iOS 27.3 expands Siri AI to new languages",
+     "url": "https://9to5mac.com/2026/11/03/ios-27-3-expands-siri-ai-to-these-new-languages/"
+    }
+   ]
+  },
+  {
+   "slug": "google-vids-bedava-video",
+   "asset": "4-persembe-google-vids-bedava",
+   "publish": "2026-11-19T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Araçlar",
+   "title": "Google Vids'te ayda 3 bedava yapay zekâ videosu",
+   "summary": "Google'a göre Google hesabı olan herkes, Vids'te ayda üç adet 15 saniyelik yapay zekâ videosunu ücretsiz üretebiliyor.",
+   "body": [
+    "Google, 5 Kasım'da video düzenleme aracı Google Vids'in yeni video modeli Omni 1.2 Flash ile çalıştığını duyurdu. Şirkete göre Google hesabı ya da Workspace aboneliği olan herkes ayda en fazla üç tane 15 saniyelik videoyu ek ücret ödemeden üretebiliyor.",
+    "Model yazılı tariften video üretebiliyor, mevcut görselleri hareketlendirebiliyor ve daha doğal seslendirme sunuyor. Denemek için tarayıcıda vids.new adresi açılabiliyor.",
+    "Üç klip ayda toplam 45 saniye ediyor: denemek için yeterli, düzenli içerik için değil. Kullanım hakkı hesaba ve ülkeye göre değişebilir."
+   ],
+   "sources": [
+    {
+     "title": "Google Blog: Omni 1.2 Flash in Google Vids",
+     "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/"
+    }
+   ]
+  },
+  {
+   "slug": "steam-yapay-zeka-oyunlar",
+   "asset": "5-cuma-steam-yapay-zeka",
+   "publish": "2026-11-20T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Oyun",
+   "title": "Steam'de her iki oyundan biri yapay zekâlı",
+   "summary": "Bağımsız bir analize göre Steam'de Ekim 2026'da çıkan oyunların yüzde 49,9'u yapay zekâ içeriği beyanı taşıyor.",
+   "body": [
+    "Mağaza kayıtlarını inceleyen bağımsız bir analize göre Steam'de Ekim 2026'da çıkan oyunların yüzde 49,9'unda, geliştiricinin yapay zekâyla üretilmiş içerik kullandığını bildiren beyan bulunuyor.",
+    "Beyanlar aynı ölçüde kullanımı göstermiyor: bazı oyunlarda yalnızca çeviri ya da küçük bir kısım yapay zekâyla yapılmışken bazılarında görsel, ses ve hikâyenin neredeyse tamamı yapay zekâ ürünü.",
+    "Valve, 27 Ekim'de yapay zekâyla yapılan oyunları engellemeyeceğini söyledi. Bir oyunu almadan önce mağaza sayfasındaki yapay zekâ içeriği açıklamasına bakılabilir."
+   ],
+   "sources": [
+    {
+     "title": "Teknoblog: Steam'de ekim ayında çıkan oyunların yüzde 49,9'u yapay zeka beyanı taşıyor",
+     "url": "https://www.teknoblog.com/steam-yapay-zeka-beyani-ekim/"
+    }
+   ]
+  },
+  {
+   "slug": "airbnb-yapay-zeka-destek",
+   "asset": "6-cumartesi-airbnb-destek",
+   "publish": "2026-11-21T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Şirketler",
+   "title": "Airbnb'de sorunların %40'ını yapay zekâ çözüyor",
+   "summary": "Airbnb'ye göre üçüncü çeyrekte destek sorunlarının yaklaşık yüzde 40'ı insan temsilci olmadan çözüldü.",
+   "body": [
+    "Airbnb, 5 Kasım'daki üçüncü çeyrek toplantısında destek sorunlarının yaklaşık yüzde 40'ının insan temsilci olmadan çözüldüğünü açıkladı; bu oran bir önceki çeyrekte üçte birdi.",
+    "CEO Brian Chesky'ye göre rezervasyon başına destek maliyeti bir yılda yüzde 17'den fazla düştü ve bunun büyük kısmı yapay zekâ asistanındaki iyileştirmelerden geliyor. Şirket, müşteri hizmetleri memnuniyetinin hiç olmadığı kadar yüksek olduğunu söylüyor.",
+    "Airbnb, 2027'nin ilk yarısında yalnızca kendi platformuyla sınırlı olmayacak bir yapay zekâ seyahat asistanı çıkarmayı planlıyor."
+   ],
+   "sources": [
+    {
+     "title": "Customer Experience Dive: Airbnb reduces support cost per booking 17%",
+     "url": "https://www.customerexperiencedive.com/news/airbnb-reduces-customer-support-cost-per-booking-17/874307/"
+    }
+   ]
+  },
+  {
+   "slug": "gemini-bellek-ozeti",
+   "asset": "7-pazar-gemini-bellek",
+   "publish": "2026-11-22T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Gizlilik",
+   "title": "Gemini seni ne kadar tanıyor? Bellek özeti geldi",
+   "summary": "Google, Gemini'nin senin hakkında hatırladıklarını tek sayfada gösteren ve düzeltip silmeye izin veren Bellek özeti özelliğini sunmaya başladı.",
+   "body": [
+    "Google, 9 Kasım'da Gemini'de 'Memory summary' (Bellek özeti) özelliğini sunmaya başladı. Sayfa, Gemini'nin geçmiş sohbetlerden senin hakkında öğrendiklerini listeliyor; yanlış olanı düzeltmeye, istemediğini silmeye izin veriyor.",
+    "Özellik Settings → Personal Intelligence → Memory summary yolunda. Google'a göre şimdilik ABD'deki, ücretli Google AI planı olan, 18 yaş üstü kullanıcılara İngilizce sunuluyor; Bellek ve etkinlik kaydı ayarlarının açık olması gerekiyor.",
+    "Android Authority ise özelliği ABD dışında ücretsiz bir hesapla Gemini'nin masaüstü web sitesinde çalışır hâlde gördüğünü bildirdi; mobil uygulamada henüz görünmüyor."
+   ],
+   "sources": [
+    {
+     "title": "Android Authority: Gemini Memory summary rollout",
+     "url": "https://androidauthority.com/google-gemini-memory-summary-rollout-3733179"
+    },
+    {
+     "title": "9to5Google: Gemini rolling out Memory summary",
+     "url": "https://9to5google.com/?p=736073"
     }
    ]
   }
