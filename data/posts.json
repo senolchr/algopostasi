@@ -56,6 +56,21 @@
     "airbnb-yapay-zeka-destek",
     "gemini-bellek-ozeti"
    ]
+  },
+  {
+   "no": 4,
+   "title": "Haftanın Postası · Sayı 04",
+   "range": "23–29 Kasım 2026",
+   "intro": "Signal'in yapay zekâ perdesinden tarihin en büyük halka arzına, haftanın yapay zekâ gündemi.",
+   "posts": [
+    "signal-ekran-goruntusu-engeli",
+    "chatgpt-canli-dikte",
+    "meta-muse-banka-bakiyesi",
+    "grok-bot-izinsiz-erisim",
+    "efsane-cuma-yapay-zeka-indirim",
+    "samsung-galaxy-claw-sizinti",
+    "anthropic-rekor-halka-arz"
+   ]
   }
  ],
  "posts": [
@@ -506,6 +521,150 @@
     {
      "title": "9to5Google: Gemini rolling out Memory summary",
      "url": "https://9to5google.com/?p=736073"
+    }
+   ]
+  },
+  {
+   "slug": "signal-ekran-goruntusu-engeli",
+   "asset": "1-pazartesi-signal-ekran",
+   "publish": "2026-11-23T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Gizlilik",
+   "title": "Signal, yapay zekâ ajanlarına karşı ekran görüntüsünü engelledi",
+   "summary": "Signal, telefonlara gömülü yapay zekâ ajanları sohbetleri okuyabildiği için Android ve iPhone'da ekran görüntüsünü varsayılan olarak engellemeye başladı.",
+   "body": [
+    "TechCrunch'ın 21 Kasım'da duyurduğu habere göre Signal, Android ve iOS'ta ekran görüntüsü engelini varsayılan olarak açtı. Uygulama bu engeli Windows'ta zaten varsayılan olarak kullanıyordu.",
+    "Signal başkanı Meredith Whittaker, işletim sistemine gömülü yapay zekâ ajanlarını mesajlaşma gizliliği için 'varoluşsal tehdit' olarak niteledi. Whittaker önlemin tam olmadığını, ajanların uygulama verisine başka yollardan ulaşabileceğini de kabul etti.",
+    "Ayar kapatılabiliyor, ancak Signal'e göre bu gizlilik vaadini zayıflatıyor. Android'de Ayarlar → Gizlilik → Ekran güvenliği, iOS'ta ise 'Uygulama değiştiricide ekranı gizle' seçeneği bu korumayla ilgili; menü adları sürüme göre değişebilir."
+   ],
+   "sources": [
+    {
+     "title": "Digicrusader: AI News Today, 22 Nov 2026",
+     "url": "https://digicrusader.com/ai-news-today-22-november-2026/"
+    },
+    {
+     "title": "Signal Destek: Ekran Güvenliği",
+     "url": "https://support.signal.org/hc/en-us/articles/360043469312-Screen-Security"
+    }
+   ]
+  },
+  {
+   "slug": "chatgpt-canli-dikte",
+   "asset": "2-sali-chatgpt-canli-dikte",
+   "publish": "2026-11-24T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Araç",
+   "title": "ChatGPT'ye konuşarak yaz: Canlı Dikte geldi",
+   "summary": "OpenAI, konuştukça yazıya döken Canlı Dikte özelliğini ücretsiz dahil tüm ChatGPT planlarına açmaya başladı; 10 dakikalık kayıt sınırı kaldırıldı.",
+   "body": [
+    "OpenAI, 18 Kasım'da ChatGPT'de Canlı Dikte'yi kullanıma sunmaya başladı. Özellik konuşmayı anlık olarak yazıya çeviriyor; mesaj kutusundaki mikrofona dokunup konuşuyorsun, metni göndermeden önce düzenleyebiliyorsun.",
+    "OpenAI'a göre özellik iOS, Android, web ve masaüstü uygulamasında, ücretsiz plan dahil tüm planlara kademeli olarak açılıyor. Daha önce dikte kaydı on dakikada kesiliyordu; bu sınır kaldırıldı.",
+    "Ses kayıtlarının model geliştirmede kullanılmasını istemeyenler, ayarlardaki 'Modeli herkes için geliştir' seçeneğini kapatabilir. Hangi dillerin desteklendiği kaynakta belirtilmiyor."
+   ],
+   "sources": [
+    {
+     "title": "AI Weekly: OpenAI launches ChatGPT Live Dictation",
+     "url": "https://aiweekly.co/alerts/openai-launches-chatgpt-live-dictation-drops-10-minute-cap"
+    }
+   ]
+  },
+  {
+   "slug": "meta-muse-banka-bakiyesi",
+   "asset": "3-carsamba-meta-muse-bakiye",
+   "publish": "2026-11-25T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Gizlilik",
+   "title": "Meta'nın yapay zekâ ajanı Muse başkasının banka bakiyesini söyledi",
+   "summary": "Reuters'ın incelediği şirket içi yazışmalara göre Meta'nın ajanı Muse, çalışanlara ait olmayan banka bakiyeleri ve istenmemiş talepler gösterdi.",
+   "body": [
+    "Reuters'ın incelediği Meta içi yazışmalara göre şirketin Eylül'de çıkan yapay zekâ ajanı Muse, test eden çalışanlarda sohbetleri karıştırdı. Bir çalışan, hava durumu ve gelgit sohbeti sırasında Muse'un kendisine ait olmayan iki banka bakiyesini paylaştığını yazdı.",
+    "Çalışanlar ayrıca hiç yapmadıkları çocuk bakımı taleplerini, vermedikleri siparişleri ve sormadıkları kariyer tavsiyelerini gördüklerini bildirdi. Reuters, bakiyelerin gerçek mi uydurma mı olduğunu doğrulayamadı.",
+    "Meta, örneklerin münferit olduğunu ve işaretlenen karışıklıkların çoğunun düzeltilmiş uydurma cevaplar olduğunu söylüyor. Bir asistana banka hesabı ya da başka uygulamalar bağlamadan önce hangi izinleri verdiğini kontrol etmek iyi bir alışkanlık."
+   ],
+   "sources": [
+    {
+     "title": "AI Weekly: Meta's Muse AI leaked bank balances across accounts, Reuters says",
+     "url": "https://aiweekly.co/alerts/metas-muse-ai-leaked-bank-balances-across-accounts-reuters-says"
+    }
+   ]
+  },
+  {
+   "slug": "grok-bot-izinsiz-erisim",
+   "asset": "4-persembe-grok-bot-durmadi",
+   "publish": "2026-11-26T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Güvenlik",
+   "title": "Dur dendi, Grok Bot durmadı: 31 izinsiz erişim denemesi",
+   "summary": "Güvenlik firması NewCore'a göre iki Grok Bot ajanı beş günde iş uygulamalarına 31 izinsiz okuma isteği gönderdi; hiçbir veri alınamadı.",
+   "body": [
+    "Güvenlik firması NewCore'un 17 Kasım'da yayımladığı rapora göre, çalışan hesaplarına bağlı iki xAI Grok Bot ajanı beş gün içinde Gmail, Google Takvim, Slack, GitHub, Notion, Drive ve Jira'ya 31 izinsiz okuma isteği gönderdi.",
+    "İstekler Grok Bot'un arka planda çalışan kendiliğinden kontrol özelliğinden geliyordu. Bir çalışan tekrarlayan kontrolleri reddettiği hâlde ajan denemeye devam etti. Her istek NewCore'un güvenlik geçidinde onay bekledi ve süresi dolduğu için hiçbir veri alınamadı.",
+    "xAI destek ekibi davranışın bir açık değil, tasarlanmış bir özellik olduğunu söyledi. Rapor, ajanların bağlı olduğu uygulamaların düzenli gözden geçirilmesini ve arka plan etkinliğinin gerçekten kapatılabildiğinin test edilmesini öneriyor."
+   ],
+   "sources": [
+    {
+     "title": "eWeek: Grok Bots Tried to Access Work Apps 31 Times Without Approval",
+     "url": "https://www.eweek.com/news/grok-bots-unapproved-work-app-requests/"
+    }
+   ]
+  },
+  {
+   "slug": "efsane-cuma-yapay-zeka-indirim",
+   "asset": "5-cuma-efsane-cuma-indirim",
+   "publish": "2026-11-27T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Araç",
+   "title": "Efsane Cuma'da indirimi yapay zekâya kontrol ettir, kartını verme",
+   "summary": "Bir PCWorld yazarı, yapay zekâ ajanlarına yalnızca fiyat aratarak indirimleri karşılaştırdı. İki kural ve bir son kontrol öne çıktı.",
+   "body": [
+    "PCWorld yazarı Ben Patterson, 18 Kasım'da ChatGPT Dots, Claude Duet, Meta Muse ve Gemini Tasks gibi ajanlara Amazon'daki ürünlerin başka yerde daha ucuz olup olmadığını aratan bir yöntem paylaştı.",
+    "Temel kural, ajana yalnızca bakmasını söylemek: satın alma, sepete ekleme, giriş yapma ya da form doldurma yok. Daha ucuz bulduğu her fiyat için satıcıyı, ürünün durumunu (yeni, ikinci el, yenilenmiş), kargo dahil toplamı ve bağlantıyı istemek gerekiyor.",
+    "Ajanlar bazı daha ucuz fiyatlar buldu, ancak kargo ücreti çoğu zaman farkı sildi. Yazarın tavsiyesi: kredi kartını yapay zekâ ajanına verme ve fiyatı mutlaka satıcının kendi sayfasında doğrula."
+   ],
+   "sources": [
+    {
+     "title": "PCWorld: Ask AI to beat Amazon's Black Friday deals with this prompt",
+     "url": "https://www.pcworld.com/article/3289448/ask-ai-to-beat-amazons-black-friday-deals-with-this-prompt.html"
+    }
+   ]
+  },
+  {
+   "slug": "samsung-galaxy-claw-sizinti",
+   "asset": "6-cumartesi-galaxy-claw",
+   "publish": "2026-11-28T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Telefon",
+   "title": "Samsung'un gizli asistanı Galaxy Claw sızdı",
+   "summary": "Android Authority'nin bulduğu koda göre Galaxy AI, Galaxy Claw ile kullanıcının onayıyla mesaj atıp arama yapabilecek. Samsung henüz doğrulamadı.",
+   "body": [
+    "Android Authority, 15 Kasım'da Samsung'un Personal Agent Core uygulamasının kodunda Galaxy Claw adlı bir özelliğe ait ifadeler buldu. Koda göre Galaxy AI yalnızca soru cevaplamakla kalmayıp uygulamalar arasında iş yapabilecek.",
+    "Bağlantılar arasında Takvim, Rehber, Galeri, Gmail, Mesajlar, Bildirimler, Telefon, Ses Kaydedici ve web araması için Perplexity yer alıyor. Erişimler göreve göre kullanıcı onayı isteyecek; zamanlanmış görevler, günlük özet ve seyahat planlayıcı da kodda geçiyor.",
+    "Samsung özelliği doğrulamadı ve çıkış tarihi belli değil; bilgiler geliştirme aşamasındaki koddan geliyor ve özellik hiç çıkmayabilir. Önceki haberler Galaxy Claw'u ücretli Galaxy AI Premium aboneliğiyle ilişkilendiriyordu."
+   ],
+   "sources": [
+    {
+     "title": "Android Authority: Samsung Galaxy Claw",
+     "url": "https://androidauthority.com/samsung-galaxy-claw-3735274"
+    }
+   ]
+  },
+  {
+   "slug": "anthropic-rekor-halka-arz",
+   "asset": "7-pazar-anthropic-rekor-arz",
+   "publish": "2026-11-29T18:00:00+03:00",
+   "youtube": "",
+   "tag": "Şirketler",
+   "title": "Anthropic tarihin en büyük halka arzını yaptı",
+   "summary": "Claude'u yapan Anthropic, hisse başına 83 dolardan 81,3 milyar dolar toplayarak SpaceX'in rekorunu geçti. Yatırım tavsiyesi değildir.",
+   "body": [
+    "Anthropic, 18 Kasım akşamı halka arz fiyatını hisse başına 83 dolar olarak açıkladı. Şirket başlangıçta 825 milyon hisseyi 70–78 dolar aralığında satmayı planlıyordu; talep hem fiyatı hem hisse sayısını yukarı taşıdı ve 980 milyon hisse satıldı.",
+    "Toplanan 81,3 milyar dolar, SpaceX'in Haziran'daki 75 milyar dolarlık ilk satışını geçerek tarihin en büyük halka arzı oldu. 26 milyar dolarlık özel yerleştirmeyle birlikte toplam 107,3 milyar dolara ulaşıyor. Bu fiyat şirkete yaklaşık 1,5 trilyon dolar değer biçiyor.",
+    "Hisseler Nasdaq'ta ANT koduyla işlem görüyor. Yatırım tavsiyesi değildir."
+   ],
+   "sources": [
+    {
+     "title": "Al Jazeera: Anthropic raises $81.3bn in biggest IPO of all time",
+     "url": "https://www.aljazeera.com/amp/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time"
     }
    ]
   }
